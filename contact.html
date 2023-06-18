@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Blake K-J">
+    <meta name="description" content="Mia's Pizzeria Website">
+    <title>Contact - Mia's Pizzeria</title>
+    <link rel="icon" href="pizza-slice.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header--h1">Mia's Pizzeria</h1>
+        <nav class="header--nav">
+            <ul class="header--ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="img/contact.jpg" alt="Mia's Pizza" title="We Love Pizza!" width="6016" height="4016">
+    </section>
+
+    <main class="main">
+        <article class="main--article">
+            <h2>Our Location</h2>
+            <address>
+                1 London Road <br>
+                London <br>
+                W1 4AS <br><br>
+                Phone <a href="tel:+442089991111">0208 999 1111</a>
+            </address>
+        </article>
+        <article class="main--article contact">
+            <h2 class="contact--h2">Message Mia's Pizzeria</h2>
+
+            <form action="https://httpbin.org/get" method="get" class="contact--form">
+                <fieldset class="contact--fieldset">
+                    <p class="contact--p">
+                        <label for="name" class="contact--label">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Your name" required class="contact--input">
+                    </p>
+                    <p class="contact--p">
+                        <label for="email" class="contact--label">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" required class="contact--input">
+                    </p>
+                    <p class="contact--p">
+                        <label for="message" class="contact--label">Your message:</label>
+                        <br>
+                        <textarea type="email" name="message" id="message" placeholder="Type your message here" cols="30" rows="6" required class="contact--textarea"></textarea>
+                    </p>
+                </fieldset>
+                <button class="contact--button" type="submit">Send</button>
+                <button class="contact--button" type="reset">Reset</button>
+            </form>
+        </article>
+
+    </main>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; </span>
+            <span class="nowrap">Mia's Pizzeria</span>
+        </p>
+    </footer>
+</body>
+</html>

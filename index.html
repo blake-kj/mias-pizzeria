@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Blake K-J">
+    <meta name="description" content="Mia's Pizzeria Website">
+    <title>Mia's Pizzeria</title>
+    <link rel="icon" href="pizza-slice.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header--h1">Mia's Pizzeria</h1>
+        <nav class="header--nav">
+            <ul class="header--ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero--h2">Welcome!</h2>
+        <img src="img/home.jpg" alt="Mia's Pizza" title="We Love Pizza!" width="2000" height="1334">
+    </section>
+
+    <main class="main">
+        <article id="menu" class="main--article menu">
+            <h2 class="menu--h2">Our Pizza Menu</h2>
+            <table class="menu--container">
+                <thead>
+                    <tr>
+                        <th class="menu--header" scope="col">Topping</th>
+                        <th class="menu--header" scope="col">Size</th>
+                        <th class="menu--header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu--item menu--ma" scope="row" rowspan="2">Mozzarella</th>
+                        <td class="menu--item">M</td>
+                        <td class="menu--item">£11.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu--item">L</td>
+                        <td class="menu--item">£13.50</td>
+                    </tr>
+                    <tr>
+                        <th class="menu--item menu--pi" scope="row" rowspan="2">Pepperoni</th>
+                        <td class="menu--item">M</td>
+                        <td class="menu--item">£12.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu--item">L</td>
+                        <td class="menu--item">£14.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu--item menu--dl" colspan="3">
+                            Doughballs &amp; Garlic Butter £4.50
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="center">
+                <a href="#">Back To Top ↑</a>
+            </p>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; </span>
+            <span class="nowrap">Mia's Pizzeria</span>
+        </p>
+    </footer>
+</body>
+</html>
