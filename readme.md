@@ -1,6 +1,6 @@
 # Website for Mia's Pizzeria
 
-I created a website for a London-based pizzeria using HTML and CSS. Images courtesy of Unsplash.
+I created a website for a London-based pizzeria using HTML and CSS. Images courtesy of Unsplash. Project inspired by [this CSS course.](https://www.youtube.com/watch?v=n4R2E7O-Ngo)
 
 ## Outcomes:
 
